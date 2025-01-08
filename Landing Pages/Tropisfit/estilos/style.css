@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
+
+.snippet-regular {
+    font-family: "Snippet", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+
+
+/*   
+        @font-face {
+    font-family:script;
+    src: url(script.ttf)format(truetype);font-weight: normal;font-style: normal;
+}
+
+*{font-family: script, arial,sans-serif;}
+
+
+*/
+
+
+/*
+        Cor0:#236643
+        Cor2:#25995C
+        Cor1:#CED6AF
+        Cor2:#f6ffd0
+        #1D2C33
+        
+
+4d9a1a
+
+
+*/
+
+*{ margin: 0px; padding: 0px; box-sizing: border-box; font-family: 'Arial Narrow Bold', sans-serif;}
+
+body { height: 400vh; width: 100vw; } 
+
+#promo { display: flex; justify-content: space-between; background-color: #4d9a1a; padding: 1vh; flex-flow: row nowrap; }
+
+#promo a { text-decoration: none; color: white; margin: 0 2vw; font-family: Arial, Helvetica, sans-serif; font-size: .8em; font-weight: bold; }
+
+#header { display: flex; background-color: aliceblue;position: fixed; width: 100%; top: 30px; padding: 7px; transition: .8s; flex-flow: row nowrap; justify-content: space-between; padding-left: 13vw; }
+
+#header.rolagem {
+
+    background-color: aliceblue; top: 0; padding: 0;
+}
+
+
+#header.rolagem .secbox { display: none;}
+
+#header.rolagem >#divlogo { margin-left: 15vw; margin-top: 15px}
+
+#header.rolagem >#divlogo > #iconelogo { width: 12%;}
+
+#header.rolagem >#divlogo > #namelogo { font-size: 1.2vw;}
+
+#header.rolagem > #menu >ul>li>a { font-size: .8vw; font-weight: bolder;}
+
+#header.rolagem > #menu { margin-left: -20vw;}
+
+
+#divlogo { display: inline-block; padding-left: 3vw; width: 40vw;}
+
+#iconelogo {max-width: ; }
+
+
+
+#menu {  padding-top: 10px; }
+
+#menu > ul {display: flex; flex-flow: row nowrap; flex: auto; }
+
+#menu >ul>li {display: inline-block;  }
+
+#menu >ul>li>a { text-decoration: none; color: #1D2C33;font-family: Arial, Helvetica, sans-serif, ; font-size: 1vw; ; margin:0 1.2vw;  font-weight: normal; position: relative; }
+
+#menu >ul>li>a::after { content:" "; width: 0%; height: 2px; position: absolute; background:#86B800; bottom: 0; left: 0; transition: .6s ease-in-out;}
+
+#menu >ul>li>a:hover::after {width: 100%;}
+
+#menu >ul>li>a:hover {color: #86B800; transition: .5s; }
+
+
+#carrinho
+
+#carrinho >img { width: 1%;}
+
+#iconecarrinho { width: 10%;}
+
+
+
+
+
+
+
+
+
+
